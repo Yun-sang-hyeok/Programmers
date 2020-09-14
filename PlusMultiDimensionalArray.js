@@ -39,7 +39,6 @@ function solution(arr1, arr2) {
         ans4 = arr1[1][0,1]+arr2[1][0,1];
         
         var arrNumber1 = new Array();
-        
         var arrNumber1 = new Array(ans1, ans2, ans3, ans4);
         var answer = [[arrNumber1[0],arrNumber1[1]],[arrNumber1[2],arrNumber1[3]]];
         return answer;
