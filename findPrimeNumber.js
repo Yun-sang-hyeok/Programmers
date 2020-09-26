@@ -38,7 +38,7 @@ function solution(n) {
 }
 
 
------------------
+------------------
 function solution(n) {
     var answer = 2;
     
@@ -62,7 +62,7 @@ console.log(solution(30));
 
 
 
----------------------
+----------------------
 function solution(n) {
     var answer = 4;
     var arr = [];
@@ -87,5 +87,6 @@ function solution(n) {
     }
     console.log(arr);
     return answer;
+    
 }
 console.log(solution(12));
