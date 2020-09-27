@@ -29,7 +29,7 @@ function solution(a, b) {
     return day;
 }
 
-//다른 사람의 풀이, 모든 달의 일수를 배열로 생성하고 반복문을 활용하여 
+//다른 사람의 풀이, 모든 달의 일수를 배열로 생성하고 반복문을 활용, 더 연구해야함 
 function getDayName(a,b){
     var answer = "";
   var MONTH = [31,29,31,30,31,30,31,31,30,31,30,31];
@@ -38,7 +38,7 @@ function getDayName(a,b){
     for(var i =1; i<a; i++){
     sum+=MONTH[i-1];
   }
-  answer = WEEK[(sum+b-1)%7];
+  answer = WEEK[(sum+b-1)%7]; // 이쪽부분
   // 1월 1일은 금요일
     // 31,29,31,30,31,30,31,31,30,31,30,31
 
