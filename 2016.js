@@ -37,6 +37,7 @@ function getDayName(a,b){
   var sum = 0;
     for(var i =1; i<a; i++){
     sum+=MONTH[i-1];
+          
   }
   answer = WEEK[(sum+b-1)%7]; // 이쪽부분
   // 1월 1일은 금요일
@@ -44,4 +45,3 @@ function getDayName(a,b){
 
     return answer;
 }
-
