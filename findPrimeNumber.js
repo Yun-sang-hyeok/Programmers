@@ -24,7 +24,6 @@ n	    result
 입출력 예 #2
 1부터 5 사이의 소수는 [2,3,5] 3개가 존재하므로 3를 반환
 */
-
 function solution(n) {
     var answer = 3;
     for(var i = 2; i <= n && n <= 1000000; i++){
@@ -36,7 +35,6 @@ function solution(n) {
     }
     return answer;
 }
-
 
 ------------------
 function solution(n) {
@@ -58,9 +56,6 @@ function solution(n) {
 }
 
 console.log(solution(30));
-
-
-
 
 ----------------------
 function solution(n) {
